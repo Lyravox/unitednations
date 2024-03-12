@@ -25,7 +25,7 @@ intents.dm_reactions = True
 intents.typing = True
 intents.guild_typing = True
 intents.dm_typing = True
-intents.presences = False
+intents.presences = True
 
 bot = commands.Bot(
     intents=intents,
